@@ -1,38 +1,36 @@
-.App {
-  text-align: center;
-}
-
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
-}
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
-}
-
-.App-link {
-  color: #61dafb;
-}
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
-}
+header {
+  background-color: #131A22; }
+  header #header--logoCuadrado {
+    margin: 3vh; }
+  @media (min-width: 992px) {
+    header #header--banner {
+      text-decoration: none;
+      color: #EFD2CB;
+      margin: 6vh;
+      font-family: 'Cormorant Garamond', serif;
+      font-size: 800%; } }
+  @media (max-width: 991.9px) {
+    header #header--banner {
+      text-decoration: none;
+      color: #EFD2CB;
+      margin: 6vh;
+      font-family: 'Cormorant Garamond', serif;
+      font-size: 200%; } }
+  header #menu {
+    line-height: 3.3rem; }
+    header #menu ul #index--index {
+      background-color: gray; }
+    header #menu ul #index--catalogo {
+      background-color: gray; }
+    header #menu ul #index--qsomos {
+      background-color: gray; }
+    header #menu ul #index--pfrecuentes {
+      background-color: gray; }
+    header #menu ul #index--contacto {
+      background-color: gray; }
+    header #menu ul li a {
+      text-transform: capitalize;
+      text-decoration: none;
+      color: #DDD;
+      font-family: 'Roboto', sans-serif;
+      font-weight: 900; }
