@@ -7,7 +7,7 @@ function App() {
       <header>
             <div className="container-fluid d-flex justify-content-start">
                 <a href="index.html" id="header--logoCuadrado"> 
-                    <img className="img-fluid" src="multimedia/logos/main/logo_cuadrado.png"></img>
+                    <img className="img-fluid" src="/multimedia/logos/main/logo_cuadrado.png"></img>
                 </a>
 
                 <a href="index.html" id="header--banner">
