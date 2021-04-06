@@ -1,0 +1,36 @@
+header {
+    background-color: #131A22; }
+    header #header--logoCuadrado {
+      margin: 3vh; }
+    @media (min-width: 992px) {
+      header #header--banner {
+        text-decoration: none;
+        color: #EFD2CB;
+        margin: 6vh;
+        font-family: 'Cormorant Garamond', serif;
+        font-size: 800%; } }
+    @media (max-width: 991.9px) {
+      header #header--banner {
+        text-decoration: none;
+        color: #EFD2CB;
+        margin: 6vh;
+        font-family: 'Cormorant Garamond', serif;
+        font-size: 200%; } }
+    header #menu {
+      line-height: 3.3rem; }
+      header #menu ul #index--index {
+        background-color: gray; }
+      header #menu ul #index--catalogo {
+        background-color: gray; }
+      header #menu ul #index--qsomos {
+        background-color: gray; }
+      header #menu ul #index--pfrecuentes {
+        background-color: gray; }
+      header #menu ul #index--contacto {
+        background-color: gray; }
+      header #menu ul li a {
+        text-transform: capitalize;
+        text-decoration: none;
+        color: #DDD;
+        font-family: 'Roboto', sans-serif;
+        font-weight: 900; }

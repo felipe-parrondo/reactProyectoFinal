@@ -1,0 +1,43 @@
+@media (min-width: 992px) {
+    #Index .Index__Video p {
+      font-size: 130%;
+      font-family: 'Roboto', sans-serif;
+      font-weight: 300;
+      line-height: 3.9vh; }
+    #Index #Index__FlexContainer #Index__Video--VideoUno #Index__Video--TextoUno {
+      font-family: 'Roboto', sans-serif;
+      text-align: left;
+      font-size: 170%; }
+      #Index #Index__FlexContainer #Index__Video--VideoUno #Index__Video--TextoUno #Index__Video--TextoUno--Titulo {
+        text-align: right;
+        font-family: 'Domine', serif; }
+    #Index #Index__FlexContainer #Index__Video--VideoDos {
+      text-align: right; }
+      #Index #Index__FlexContainer #Index__Video--VideoDos #Index__Video--TextoDos {
+        font-family: 'Roboto', sans-serif;
+        text-align: left;
+        font-size: 170%; }
+        #Index #Index__FlexContainer #Index__Video--VideoDos #Index__Video--TextoDos #Index__Video--TextoDos--Titulo {
+          font-family: 'Domine', serif; } }
+  
+  @media (max-width: 991.9px) {
+    #Index .Index__Video p {
+      font-size: 100%;
+      font-family: 'Roboto', sans-serif;
+      font-weight: 300;
+      line-height: 3.9vh; }
+    #Index #Index__FlexContainer #Index__Video--VideoUno #Index__Video--TextoUno {
+      font-family: 'Roboto', sans-serif;
+      text-align: left;
+      font-size: 170%; }
+      #Index #Index__FlexContainer #Index__Video--VideoUno #Index__Video--TextoUno #Index__Video--TextoUno--Titulo {
+        text-align: right;
+        font-family: 'Domine', serif; }
+    #Index #Index__FlexContainer #Index__Video--VideoDos {
+      text-align: right; }
+      #Index #Index__FlexContainer #Index__Video--VideoDos #Index__Video--TextoDos {
+        font-family: 'Roboto', sans-serif;
+        text-align: left;
+        font-size: 170%; }
+        #Index #Index__FlexContainer #Index__Video--VideoDos #Index__Video--TextoDos #Index__Video--TextoDos--Titulo {
+          font-family: 'Domine', serif; } }

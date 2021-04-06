@@ -1,9 +1,11 @@
+import "./LandingBody.css"
+
 export default function LandingBody() {
     return(
         <div className="container-fluid p-5" id="Index">
             <div id="Index__Video--VideoUno" className="row Index__Video"> 
                 <video className="col-xl-6" width="47%" height="47%" autoplay muted loop>  
-                    <source src="multimedia/videos/video1.mp4"/>
+                    <source src="videos/video1.mp4"/>
                 </video>
 
                 <div id="Index__Video--TextoUno" className="col-xl-6">
@@ -29,7 +31,7 @@ export default function LandingBody() {
                 </div>
 
                 <video className="col-xl-6" width="47%" height="47%" autoplay muted loop>  
-                    <source src="multimedia/videos/video2.mp4"/>
+                    <source src="videos/video2.mp4"/>
                 </video>
             </div>
         </div>
