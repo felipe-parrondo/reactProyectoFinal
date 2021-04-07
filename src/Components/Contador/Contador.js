@@ -16,13 +16,17 @@ export default class Contador extends Component {
     unoMas = () => {
         if(this.state.num < this.state.stock) {
             this.setState({num: this.state.num + 1})
+        } else {
+            alert("no hay mas productos disponibles")
         }
     }
 
     unoMenos = () => {
         if(this.state.num > this.state.min) {
             this.setState({num: this.state.num - 1}
-        )}
+        )} else {
+            alert("no podes llevar menos de 0!")
+        }
     }
 
     render() {
