@@ -1,8 +1,9 @@
 import 'react-bootstrap'
 import './App.css'
-import Nav from './Components/Nav/Nav.js'
-import LandingBody from "./Components/LandingBody/LandingBody.js"
-import Footer from "./Components/Footer/Footer.js"
+import Nav from './Components/Nav/Nav'
+import LandingBody from "./Components/LandingBody/LandingBody"
+import Footer from "./Components/Footer/Footer"
+import Contador from "./Components/Contador/Contador"
 
 function App() {
   return (
@@ -11,7 +12,11 @@ function App() {
 
         <LandingBody/>
 
+        <Contador/>
+
         <Footer/>
+
+        
     </div>
   );
 }
