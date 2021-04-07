@@ -1,0 +1,11 @@
+.Contador__wrapper {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    font-size: 10rem;
+    margin-top: 3vh;
+    margin-bottom: 3vh;
+    margin-left: 5vh;
+    margin-right: 5vh;
+}

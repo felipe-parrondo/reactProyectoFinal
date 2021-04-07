@@ -8,15 +8,15 @@ import Contador from "./Components/Contador/Contador"
 function App() {
   return (
     <div className="App">
-        <Nav/>
 
-        <LandingBody/>
+      <Nav/>
 
-        <Contador/>
+      <LandingBody/>
 
-        <Footer/>
+      <Contador/>
 
-        
+      <Footer/>
+
     </div>
   );
 }
