@@ -1,6 +1,6 @@
 export const instanciasItemSave = [
     {
-        pic: "http://127.0.0.1:5500/multimedia/products/tijera_mundial_negra.jpg", 
+        pic: "./products/tijera_mundial_negra.jpg", 
         name: "Tijera de Sastre", 
         price: "$99.99", 
         material: "Filo de Acero con Mango de Plástico", 

@@ -9,9 +9,11 @@ export default function ItemList() {
 
     return(
         <div id="catalogo" className="container-fluid ">
-            <div className="catalogoItems">
-                {HTMLinstanciasItemSave}
-            </div>
+            <div className="flex--catalogoItems">
+                <div className="catalogoItems">
+                    {HTMLinstanciasItemSave}
+                </div>
+            </div>  
         </div>
     )
 }
