@@ -34,3 +34,9 @@ header {
         color: #DDD;
         font-family: 'Roboto', sans-serif;
         font-weight: 900; }
+
+.nav {
+  display: grid;
+  grid-template-columns: repeat(6, 1fr);
+  list-style-type: none;
+}

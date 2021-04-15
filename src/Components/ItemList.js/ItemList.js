@@ -1,17 +1,17 @@
 import "./ItemList.css"
-import {instanciasItemSave} from "./ItemListObjs.js"
+import {instanciasItemSave as products} from "./ItemListObjs.js"
+import Item from "../Item/Item.js"
+
 
 export default function ItemList() {
 
-    const HTMLinstanciasItemSave = instanciasItemSave.map((i) =>{
-        return <div key= {i.id} className='catalogoItems--item'> <img alt={i.name} src= {i.pic} /> <p className='catalogoItems--price'> {i.price} </p> <p className='catalogoItems--desc'> {i.name} </p> </div>
-    })
+    
 
     return(
         <div id="catalogo" className="container-fluid ">
             <div className="flex--catalogoItems">
                 <div className="catalogoItems">
-                    {HTMLinstanciasItemSave}
+                    <Item info={products} />
                 </div>
             </div>  
         </div>
