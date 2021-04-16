@@ -1,9 +1,12 @@
 import 'react-bootstrap'
 import './App.css'
+
+//COMPS
 import Nav from './Components/Nav/Nav'
 import LandingBody from "./Components/LandingBody/LandingBody"
 import Footer from "./Components/Footer/Footer"
-import ItemList from "./Components/ItemList.js/ItemList"
+import ItemListContainer from "./Components/ItemListContainer/ItemListContainer.js"
+
 
 function App() {
   return (
@@ -13,7 +16,7 @@ function App() {
 
       <LandingBody/>
 
-      <ItemList/>
+      <ItemListContainer/>
 
       <Footer/>
 
