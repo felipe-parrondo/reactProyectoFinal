@@ -3,4 +3,35 @@
   grid-template-columns: 1fr 1fr 1fr;
   justify-content: space-around;
   justify-content: end;
+  margin: 3vh;
+  padding-top: 1vh;
+  cursor: pointer;
+}
+
+.catalogoItems--innerItem {
+  transition: 0.3s;
+  margin: 10vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  background-color: #ffffff;
+}
+
+.catalogoItems--InnerItem:hover {
+  -webkit-transform: scale(1.2);
+  -ms-transform: scale(1.2);
+  transform: scale(1.05);
+  box-shadow: 0 0 11px rgba(33, 33, 33, 0.2); 
+}
+
+.catalogoItems--price {
+  margin-bottom: 0;
+  margin-top: 1vh; 
+}
+
+.catalogoItems--desc {
+  opacity: 0.7;
+  margin-bottom: 0.1vh;
+  font-size: 95%; 
 }

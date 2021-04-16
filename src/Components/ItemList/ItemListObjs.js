@@ -1,6 +1,6 @@
 export const instanciasItemSave = [
     {
-        pic: "tijera_mundial_negra", 
+        pic: "https://i.ibb.co/r0dyJ6x/tijera-mundial-negra.jpg", 
         name: "Tijera de Sastre", 
         price: "$99.99", 
         material: "Filo de Acero con Mango de Plástico", 
@@ -10,7 +10,7 @@ export const instanciasItemSave = [
         stock: "Disponible"
     },
     {
-        pic: "tijera_mundial_roja", 
+        pic: "https://i.ibb.co/qdVxL9v/tijera-mundial-roja.jpg", 
         name: "Tijera de Sastre", 
         price: "$105.50", 
         material: "Acero con Mango Pintado", 
@@ -20,7 +20,7 @@ export const instanciasItemSave = [
         stock: "Disponible"
     },
     {
-        pic: "tijera_mundial_plateada", 
+        pic: "https://i.ibb.co/6gCDz3V/tijera-germania-plateada.jpg", 
         name: "Tijera de Modista", 
         price: "$149.99", 
         material: "Acero", 
@@ -30,7 +30,7 @@ export const instanciasItemSave = [
         stock: "Disponible"
     },
     {
-        pic: "tijera_germania_plateada", 
+        pic: "https://i.ibb.co/6gCDz3V/tijera-germania-plateada.jpg", 
         name: "Tijera de Sastre", 
         price: "$170.25", 
         material: "Acero", 
@@ -40,7 +40,7 @@ export const instanciasItemSave = [
         stock: "Disponible"
     },
     {
-        pic: "tijera_sastre", 
+        pic: "https://i.ibb.co/515G8QM/tijera-sastre.jpg", 
         name: "Tijera de Sastre", 
         price: "$114.99", 
         material: "Filo de Acero con Mango de Plástico", 
@@ -50,7 +50,7 @@ export const instanciasItemSave = [
         stock: "Disponible"
     },
     {
-        pic: "tijera_pajarito_tornasolada", 
+        pic: "https://i.ibb.co/9Gymt8c/tijera-pajarito-tornasolada.jpg", 
         name: "Tijera Pajarito", 
         price: "$120.20", 
         material: "Acero Tornasolado", 
