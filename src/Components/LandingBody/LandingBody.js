@@ -1,14 +1,16 @@
 import "./LandingBody.css"
+import video1 from "./videos/video1.mp4"
+import video2 from "./videos/video2.mp4"
 
 export default function LandingBody() {
     return(
-        <div className="container-fluid p-5" id="Index">
-            <div id="Index__Video--VideoUno" className="row Index__Video"> 
-                <video className="col-xl-6" width="47%" height="47%" autoPlay muted loop>  
-                    <source src="./videos/video1.mp4"/>
+        <div id="Index">
+            <div id="Index__Video--VideoUno" className="Index__Video"> 
+                <video width="47%" height="47%" autoPlay muted loop>  
+                    <source src={video1}/>
                 </video>
 
-                <div id="Index__Video--TextoUno" className="col-xl-6">
+                <div id="Index__Video--TextoUno">
                     <h3 id="Index__Video--TextoUno--Titulo">
                         Título
                     </h3>
@@ -20,7 +22,7 @@ export default function LandingBody() {
             </div>
 
             <div id="Index__Video--VideoDos" className="Index__Video row mt-5"> 
-                <div id="Index__Video--TextoDos" className="col-xl-6">
+                <div id="Index__Video--TextoDos">
                     <h3 id="Index__Video--TextoDos--Titulo">
                         Título
                     </h3>
@@ -30,8 +32,8 @@ export default function LandingBody() {
                     </p>
                 </div>
 
-                <video className="col-xl-6" width="47%" height="47%" autoPlay muted loop>  
-                    <source src="./videos/video2.mp4"/>
+                <video width="47%" height="47%" autoPlay muted loop>  
+                    <source src={video2}/>
                 </video>
             </div>
         </div>

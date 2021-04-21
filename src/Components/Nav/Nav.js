@@ -1,5 +1,6 @@
 import "./Nav.css"
 import Logo from "./logo_cuadrado_confondo.PNG"
+import {NavLink} from "react-router-dom"
 
 export default function Nav() {
     return(
@@ -16,12 +17,12 @@ export default function Nav() {
 
             <nav className="container-fluid" id="menu">
                 <ul className="nav">
-                    <li className="nav-item menu__border" id="index--index"> <a href="index.html" className="nav-link text-white"> Inicio </a> </li>
-                    <li className="nav-item menu__border"> <a href="catalogo.html" className="nav-link text-white"> Cátalogo </a> </li>
-                    <li className="nav-item menu__border"> <a href="quienes-somos.html" className="nav-link text-white"> Quienes Somos </a> </li>
-                    <li className="nav-item menu__border"> <a href="preguntas-frecuentes.html" className="nav-link text-white"> Preguntas Frecuentes </a> </li>
-                    <li className="nav-item menu__border"> <a href="contacto.html" className="nav-link text-white"> Contacto </a> </li>
-                    <li className="nav-item menu__border"> <a href="carrito.html" className="nav-link text-white"> <img alt="description" src="https://img.icons8.com/carbon-copy/50/ffffff/shopping-cart-loaded.png"/> </a> </li>
+                    <li className="nav-item menu__border"> <NavLink to="index" className="nav-link"> Inicio </NavLink> </li>
+                    <li className="nav-item menu__border"> <NavLink to="catalogo" className="nav-link"> Cátalogo </NavLink> </li>
+                    <li className="nav-item menu__border"> <NavLink to="quienes-somos" className="nav-link"> Quienes Somos </NavLink> </li>
+                    <li className="nav-item menu__border"> <NavLink to="preguntas-frecuentes" className="nav-link"> Preguntas Frecuentes </NavLink> </li>
+                    <li className="nav-item menu__border"> <NavLink to="contacto" className="nav-link"> Contacto </NavLink> </li>
+                    <li className="nav-item menu__border"> <NavLink to="carrito" className="nav-link"> <img alt="description" src="https://img.icons8.com/carbon-copy/50/ffffff/shopping-cart-loaded.png"/> </NavLink> </li>
                 </ul>
             </nav>
         </header>

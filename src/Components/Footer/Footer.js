@@ -1,4 +1,6 @@
 import "./Footer.css"
+import Logo from "./logo_cuadrado.png"
+import MPIcon from "./mp_icon.png"
 
 export default function Footer() {
     return(
@@ -14,7 +16,7 @@ export default function Footer() {
                 <li> <img alt="description" src="https://img.icons8.com/color/48/ffffff/mastercard-credit-card.png"/> Crédito </li>
                 <li> <img alt="description" src="https://img.icons8.com/color/48/ffffff/bank-card-front-side.png"/> Débito </li>
                 <li> <img alt="description" src="https://img.icons8.com/color/48/ffffff/cash-.png"/> Efectivo </li>
-                <li> <img alt="description" src="multimedia/logos/social-media/mp_icon.png"/> Mercadopago </li>
+                <li> <img alt="description" src={MPIcon}/> Mercadopago </li>
             </ul>
 
             <ul>
@@ -25,7 +27,7 @@ export default function Footer() {
             </ul>
 
             <a href="index.html">
-                <img alt="description" src="multimedia/logos/main/logo_cuadrado.png"/> 
+                <img alt="description" src={Logo}/> 
             </a>
         </footer>
     )

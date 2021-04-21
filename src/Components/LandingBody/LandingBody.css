@@ -29,7 +29,7 @@
     #Index #Index__FlexContainer #Index__Video--VideoUno #Index__Video--TextoUno {
       font-family: 'Roboto', sans-serif;
       text-align: left;
-      font-size: 170%; }
+      font-size: 170%;}
       #Index #Index__FlexContainer #Index__Video--VideoUno #Index__Video--TextoUno #Index__Video--TextoUno--Titulo {
         text-align: right;
         font-family: 'Domine', serif; }
@@ -41,3 +41,15 @@
         font-size: 170%; }
         #Index #Index__FlexContainer #Index__Video--VideoDos #Index__Video--TextoDos #Index__Video--TextoDos--Titulo {
           font-family: 'Domine', serif; } }
+
+#Index__Video--VideoUno{
+  margin: 5vh;
+  display: flex;
+  flex-direction: row;
+}
+
+#Index__Video--VideoDos{
+  margin: 5vh;
+  display: flex;
+  flex-direction: row;
+}
