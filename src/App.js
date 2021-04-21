@@ -16,9 +16,6 @@ import QuienesSomos from "./Views/QuienesSomos/QuienesSomos.js"
 
 
 function App() {
-
-  //EL ERROR EN NAVEGACION ES QUE LA TERMINACION EN PAGINA ESTÁ USANDO ".html" Y LOS PATH NO. SE PUEDEN MODIFICAR LOS PATH, PERO ESTARIA BUENO MODIFICAR LO QUE MUESTRA LA PAGINA
-
   return (
     <Router>
       <div className="App">

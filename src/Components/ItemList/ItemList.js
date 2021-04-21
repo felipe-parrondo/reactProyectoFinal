@@ -2,18 +2,12 @@ import {instanciasItemSave as products} from "./ItemListObjs.js"
 import "./ItemList.css"
 import Desc from "../Desc/Desc.js"
 import React from "react";
-import {BrowserRouter as Router, Switch, Route, Link} from "react-router-dom";
+import {Switch, Route, Link} from "react-router-dom";
 
 export default function ItemList () {
-
-    
-
     return(
         <div className='catalogoItems--item'>
             {products.map((i) =>{
-
-                
-
                 return(
                     <div key={i.id} className="catalogoItems--innerItem" >
                         <img alt={i.name} src={i.pic}  /> 

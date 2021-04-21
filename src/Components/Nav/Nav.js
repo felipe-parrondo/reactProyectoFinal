@@ -7,7 +7,7 @@ export default function Nav() {
         <header>
             <div className="container-fluid d-flex justify-content-start">
                 <a href="index.html" id="header--logoCuadrado"> 
-                    <img alt="description" className="img-fluid" src={Logo}></img>
+                    <img alt="Banner Logo" className="img-fluid" src={Logo}></img>
                 </a>
 
                 <a href="index.html" id="header--banner">
@@ -17,12 +17,12 @@ export default function Nav() {
 
             <nav className="container-fluid" id="menu">
                 <ul className="nav">
-                    <li className="nav-item menu__border"> <NavLink to="index" className="nav-link"> Inicio </NavLink> </li>
-                    <li className="nav-item menu__border"> <NavLink to="catalogo" className="nav-link"> Cátalogo </NavLink> </li>
-                    <li className="nav-item menu__border"> <NavLink to="quienes-somos" className="nav-link"> Quienes Somos </NavLink> </li>
-                    <li className="nav-item menu__border"> <NavLink to="preguntas-frecuentes" className="nav-link"> Preguntas Frecuentes </NavLink> </li>
-                    <li className="nav-item menu__border"> <NavLink to="contacto" className="nav-link"> Contacto </NavLink> </li>
-                    <li className="nav-item menu__border"> <NavLink to="carrito" className="nav-link"> <img alt="description" src="https://img.icons8.com/carbon-copy/50/ffffff/shopping-cart-loaded.png"/> </NavLink> </li>
+                    <li className="nav-item menu__border"> <NavLink to="index" activeClassName="active" className="nav-link"> Inicio </NavLink> </li>
+                    <li className="nav-item menu__border"> <NavLink to="catalogo" activeClassName="active" className="nav-link"> Cátalogo </NavLink> </li>
+                    <li className="nav-item menu__border"> <NavLink to="quienes-somos" activeClassName="active" className="nav-link"> Quienes Somos </NavLink> </li>
+                    <li className="nav-item menu__border"> <NavLink to="preguntas-frecuentes" activeClassName="active" className="nav-link"> Preguntas Frecuentes </NavLink> </li>
+                    <li className="nav-item menu__border"> <NavLink to="contacto" activeClassName="active" className="nav-link"> Contacto </NavLink> </li>
+                    <li className="nav-item menu__border"> <NavLink to="carrito" activeClassName="active" className="nav-link"> <img alt="Icono de Carrito" src="https://img.icons8.com/carbon-copy/50/ffffff/shopping-cart-loaded.png"/> </NavLink> </li>
                 </ul>
             </nav>
         </header>
