@@ -23,7 +23,7 @@ function App() {
         <Nav/>
 
         <Switch>
-          <Route path="/index" exact component={Home}/>
+          <Route path="/" exact component={Home}/>
           <Route path="/catalogo" exact component={Catalogo}/>
           <Route path="/qsomos" exact component={QuienesSomos}/>
           <Route path="/pfrecuentes" exact component={PFrecuentes}/>

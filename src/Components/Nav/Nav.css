@@ -18,16 +18,6 @@ header {
         font-size: 200%; } }
     header #menu {
       line-height: 3.3rem; }
-      header #menu ul #index--index {
-        background-color: gray; }
-      header #menu ul #index--catalogo {
-        background-color: gray; }
-      header #menu ul #index--qsomos {
-        background-color: gray; }
-      header #menu ul #index--pfrecuentes {
-        background-color: gray; }
-      header #menu ul #index--contacto {
-        background-color: gray; }
       header #menu ul li a {
         text-transform: capitalize;
         text-decoration: none;
@@ -39,4 +29,18 @@ header {
   display: grid;
   grid-template-columns: repeat(6, 1fr);
   list-style-type: none;
+}
+
+.menu__border {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-transform: capitalize;
+  text-decoration: none;
+  color: #DDD;
+}
+
+.active {
+  background-color: #EAEDED;
+  color: black;
 }
