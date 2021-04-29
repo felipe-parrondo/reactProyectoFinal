@@ -5,7 +5,8 @@
         "price": "$99.99", 
         "material": "Filo de Acero con Mango de Plástico", 
         "measure": "9''", 
-        "id": "01001", 
+        "id": "01001",
+        "category": "01", 
         "marca": "Mundial", 
         "stock": "Disponible"
     },
@@ -15,7 +16,8 @@
         "price": "$105.50", 
         "material": "Acero con Mango Pintado", 
         "measure": "12''", 
-        "id": "01002", 
+        "id": "01002",
+        "category": "01", 
         "marca": "Mundial", 
         "stock": "Disponible"
     },
@@ -25,7 +27,8 @@
         "price": "$149.99", 
         "material": "Acero", 
         "measure": "10''", 
-        "id": "01003", 
+        "id": "01003",
+        "category": "01", 
         "marca": "Mundial", 
         "stock": "Disponible"
     },
@@ -35,7 +38,8 @@
         "price": "$170.25", 
         "material": "Acero", 
         "measure": "11''", 
-        "id": "01004", 
+        "id": "01004",
+        "category": "01", 
         "marca": "Germania", 
         "stock": "Disponible"
     },
@@ -45,7 +49,8 @@
         "price": "$114.99", 
         "material": "Filo de Acero con Mango de Plástico", 
         "measure": "8''", 
-        "id": "01005", 
+        "id": "01005",
+        "category": "01", 
         "marca": "Mundial", 
         "stock": "Disponible"
     },
@@ -55,7 +60,8 @@
         "price": "$120.20", 
         "material": "Acero Tornasolado", 
         "measure": "5''", 
-        "id": "01006", 
+        "id": "01006",
+        "category": "01", 
         "marca": "Germania", 
         "stock": "Disponible"
     }

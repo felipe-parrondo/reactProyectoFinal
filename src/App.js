@@ -13,6 +13,7 @@ import Contacto from "./Views/Contacto/Contacto.js"
 import Carrito from "./Views/Carrito/Carrito.js"
 import PFrecuentes from "./Views/PFrecuentes/PFrecuentes.js"
 import QuienesSomos from "./Views/QuienesSomos/QuienesSomos.js"
+import ItemDetail from "./Views/ItemDetail/ItemDetail.js"
 
 
 function App() {
@@ -29,6 +30,7 @@ function App() {
           <Route path="/pfrecuentes" exact component={PFrecuentes}/>
           <Route path="/contacto" exact component={Contacto}/>
           <Route path="/carrito" exact component={Carrito}/>
+          <Route path="/catalogo/:id" component={ItemDetail}/>
         </Switch>
 
         <Footer/>

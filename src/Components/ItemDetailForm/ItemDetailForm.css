@@ -1,0 +1,24 @@
+.Detail--ItemDetail {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    border-radius: 1rem;
+    background-color: #fff;
+    padding: 5vh;
+}
+
+.Detail--ItemDetail {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.Detail--ItemDetail p {
+    padding: 3vh;
+    border-bottom: 1px solid #BDBFBF;
+}
+
+.Detail--ItemDetail p span {
+    font-size: 2vh;
+}
