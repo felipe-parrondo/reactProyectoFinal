@@ -10,13 +10,13 @@ export default function Nav() {
     return(
         <header>
             <div className="container-fluid d-flex justify-content-start">
-                <a href="index.html" id="header--logoCuadrado"> 
+                <NavLink activeClassName="." exact to="/" id="header--logoCuadrado"> 
                     <img alt="Banner Logo" className="img-fluid" src={Logo}></img>
-                </a>
+                </NavLink>
 
-                <a href="index.html" id="header--banner">
+                <NavLink activeClassName="." exact to="/" id="header--banner">
                     Merceria Tefel
-                </a>
+                </NavLink>
             </div>
 
             <nav className="container-fluid" id="menu">
