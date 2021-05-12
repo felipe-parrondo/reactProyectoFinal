@@ -1,10 +1,11 @@
 import "./Footer.css"
 import Logo from "./logo_cuadrado.png"
 import MPIcon from "./mp_icon.png"
+import {NavLink} from "react-router-dom"
 
 export default function Footer() {
     return(
-        <footer className="container-fluid"> 
+        <footer> 
             <ul>
                 <li> <img alt="description" src="https://img.icons8.com/color/48/ffffff/phone.png"/> +54 9 11-3486-1961 </li>
                 <li> <img alt="description" src="https://img.icons8.com/color/48/ffffff/message-group.png"/> merceriatefel@gmail.com </li>
@@ -26,9 +27,9 @@ export default function Footer() {
                 <li> <img alt="description" src="https://img.icons8.com/color/48/ffffff/whatsapp--v1.png"/> Whatsapp </li>
             </ul>
 
-            <a href="index.html">
+            <NavLink activeClassName="." exact to="/" >
                 <img alt="description" src={Logo}/> 
-            </a>
+            </NavLink>
         </footer>
     )
 }

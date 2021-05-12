@@ -1,5 +1,6 @@
 import 'react-bootstrap'
 import './App.css'
+import { useState, useEffect, useMemo } from "react"
 
 //COMPS
 import Nav from './Components/Nav/Nav'
@@ -15,23 +16,35 @@ import PFrecuentes from "./Views/PFrecuentes/PFrecuentes.js"
 import QuienesSomos from "./Views/QuienesSomos/QuienesSomos.js"
 import ItemDetail from "./Views/ItemDetail/ItemDetail.js"
 
+//DATA
+import {listaCarrito} from "./Data/listaCarrito/listaCarrito.js"
+
 
 function App() {
+
+  const [compras, setCompras] = useState([])
+
+  const providerCompras = useMemo( () => ({compras, setCompras}), [compras, setCompras] )
+
   return (
     <Router>
       <div className="App">
 
-        <Nav/>
+        <listaCarrito.Provider value={providerCompras} >
 
-        <Switch>
-          <Route path="/" exact component={Home}/>
-          <Route path="/catalogo" exact component={Catalogo}/>
-          <Route path="/qsomos" exact component={QuienesSomos}/>
-          <Route path="/pfrecuentes" exact component={PFrecuentes}/>
-          <Route path="/contacto" exact component={Contacto}/>
-          <Route path="/carrito" exact component={Carrito}/>
-          <Route path="/catalogo/:id" component={ItemDetail}/>
-        </Switch>
+          <Nav/>
+
+          <Switch>
+            <Route path="/" exact component={Home}/>
+            <Route path="/catalogo" exact component={Catalogo}/>
+            <Route path="/qsomos" exact component={QuienesSomos}/>
+            <Route path="/pfrecuentes" exact component={PFrecuentes}/>
+            <Route path="/contacto" exact component={Contacto}/>
+            <Route path="/carrito" exact component={Carrito}/>
+            <Route path="/catalogo/:id" component={ItemDetail}/>
+          </Switch>
+
+        </listaCarrito.Provider>
 
         <Footer/>
 

@@ -3,7 +3,7 @@
       padding-top: 3vh;
       background-color: #131A22;
       overflow: hidden;
-      display: flex;
+      display: flex !important;
       flex-direction: row;
       justify-content: space-between; }
       footer a img {

@@ -1,5 +1,6 @@
 import React from 'react'
 import "./ItemDetailForm.css"
+import { Button, Input } from 'semantic-ui-react'
 
 function ItemDetailForm( {info} ) {
 
@@ -32,9 +33,16 @@ function ItemDetailForm( {info} ) {
                 <span className="Detail--Info">{info.stock}</span>
             </p>
 
-            <form>
+            <span>
+                <Input
+                    icon= 'shopping basket'
+                    placeholder=''
+                    defaultValue='1'
+                    size="massive"
+                />
 
-            </form>
+                <Button color='green' size='massive' > Comprar </Button>
+            </span>
 
         </div>
     )
