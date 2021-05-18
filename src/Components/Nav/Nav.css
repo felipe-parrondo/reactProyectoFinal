@@ -31,6 +31,13 @@ header {
   list-style-type: none;
 }
 
+.logo-banner {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  align-items: center;
+}
+
 .menu__border {
   display: flex;
   align-items: center;
@@ -40,7 +47,17 @@ header {
   color: #DDD;
 }
 
+.menu__border:hover {
+  text-decoration: none;
+  color: white;
+}
+
 .active {
   background-color: #EAEDED;
+  color: black;
+}
+
+.active:hover {
+  text-decoration: none;
   color: black;
 }

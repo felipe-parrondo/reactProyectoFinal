@@ -1,6 +1,6 @@
 import 'react-bootstrap'
 import './App.css'
-import { useState, useEffect, useMemo } from "react"
+import { useState, useMemo } from "react"
 
 //COMPS
 import Nav from './Components/Nav/Nav'

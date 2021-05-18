@@ -1,8 +1,25 @@
-import React from 'react'
+import React, {useContext} from 'react'
 import "./ItemDetailForm.css"
+import {listaCarrito} from "../../Data/listaCarrito/listaCarrito"
+import ItemListObjs from "../../Data/Items/ItemListObjs.json"
 import { Button, Input } from 'semantic-ui-react'
 
 function ItemDetailForm( {info} ) {
+
+    const {compras, setCompras} = useContext(listaCarrito)
+
+    console.log(ItemListObjs)
+
+    const addAndCheckItem = () => {
+
+        var found = compras.some(element => element.id === ItemListObjs.id)
+
+        if (found) {
+            alert("ya lo agregaste")
+        } else if (!found) {
+            setCompras()
+        }
+    }
 
     return (
 
@@ -41,7 +58,7 @@ function ItemDetailForm( {info} ) {
                     size="massive"
                 />
 
-                <Button color='green' size='massive' > Comprar </Button>
+                <Button color='green' size='massive' onClick={addAndCheckItem} > Comprar </Button>
             </span>
 
         </div>
