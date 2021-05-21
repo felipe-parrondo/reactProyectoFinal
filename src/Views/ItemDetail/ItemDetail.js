@@ -14,7 +14,7 @@ function ItemDetail({match}) {
 
             <Item info={found} />
 
-            <ItemDetailForm info={found} />
+            <ItemDetailForm info={found} /> 
 
         </div>
     )
