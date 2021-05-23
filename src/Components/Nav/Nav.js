@@ -1,6 +1,6 @@
 import "./Nav.css"
 import {useContext} from "react"
-import {listaCarrito} from "../../Data/listaCarrito/listaCarrito.js"
+import {listaCarrito} from "../../Context/listaCarrito/listaCarrito.js"
 import Logo from "./logo_cuadrado_confondo.PNG"
 import {NavLink} from "react-router-dom"
 

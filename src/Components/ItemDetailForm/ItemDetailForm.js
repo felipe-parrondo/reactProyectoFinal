@@ -1,6 +1,6 @@
 import React, {useContext} from 'react'
 import "./ItemDetailForm.css"
-import {listaCarrito} from "../../Data/listaCarrito/listaCarrito"
+import {listaCarrito} from "../../Context/listaCarrito/listaCarrito"
 import ItemListObjs from "../../Data/Items/ItemListObjs.json"
 import { Button, Input } from 'semantic-ui-react'
 
